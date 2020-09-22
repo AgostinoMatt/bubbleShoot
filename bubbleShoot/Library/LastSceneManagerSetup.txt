@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Bubbles/Scenes/1_Bubbles.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

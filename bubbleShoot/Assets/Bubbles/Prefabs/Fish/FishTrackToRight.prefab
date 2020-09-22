@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1668482444107720}
+  m_IsPrefabAsset: 1
+--- !u!1 &1668482444107720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4770928678516332}
+  - component: {fileID: 114661721646817736}
+  m_Layer: 0
+  m_Name: FishTrackToRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4770928678516332
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668482444107720}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114661721646817736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668482444107720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130a42dfffcd88142b836c64b9abf401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    handlesPositions:
+    - {x: 0, y: 0, z: 0}
+    - {x: -3.096199, y: 2.2033749, z: 0}
+    - {x: -0.85041237, y: 5.55952, z: 0}
+    - {x: 2.905058, y: 5.067686, z: 0}
+    - {x: 3.3616781, y: 1.7907515, z: 0}
+    - {x: 1.9981508, y: -2.0342188, z: 0}
+    - {x: 16.949219, y: -4.5258904, z: 0}
+    controlPositions:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: -3.096199, y: 2.2033749, z: 0}
+    - {x: -0.85041237, y: 5.55952, z: 0}
+    - {x: 2.905058, y: 5.067686, z: 0}
+    - {x: 3.3616781, y: 1.7907515, z: 0}
+    - {x: 1.9981508, y: -2.0342188, z: 0}
+    - {x: 16.949219, y: -4.5258904, z: 0}
+    - {x: 16.949219, y: -4.5258904, z: 0}
+    distances:
+    - 0
+    - 0
+    - 3.8001723
+    - 7.838398
+    - 11.625937
+    - 14.934532
+    - 18.995272
+    - 34.152542
+    - 34.152542
+  displayMode: 2
+  color: {r: 0.8301887, g: 0.23104309, b: 0.23104309, a: 1}
+  created: 1
+  ChangeCurveEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

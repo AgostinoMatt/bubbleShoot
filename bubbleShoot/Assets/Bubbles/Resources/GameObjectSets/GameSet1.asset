@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384ae313a5d743c4aa42d5ebbd3a14f9, type: 3}
+  m_Name: GameSet1
+  m_EditorClassIdentifier: 
+  backGrounds:
+  - {fileID: 21300000, guid: 328669c85fc1012468123443865f87b9, type: 3}
+  - {fileID: 21300000, guid: 78faecdbe2e4341408a679b526e8adae, type: 3}
+  - {fileID: 21300000, guid: 2ffe96211876c49468615ed9712da7f5, type: 3}
+  - {fileID: 21300000, guid: 95baa071bf84d25479682ced539e338c, type: 3}
+  selector: {fileID: 21300000, guid: c8a134c21acd7dd4cb8fadb4fd6d1832, type: 3}
+  gridCellPrefab: {fileID: 1325283425302182, guid: 254a7117d6c43cb46aca34d2fa7de6b3,
+    type: 3}
+  shootBubblePrefab: {fileID: 1325283425302182, guid: b1a256d3ff16f6b4c8ef21651a43df9c,
+    type: 3}
+  gridCellEmptySprite: {fileID: 21300000, guid: c8a134c21acd7dd4cb8fadb4fd6d1832,
+    type: 3}
+  mainObjects:
+  - name: 'Field Blue Ball; ID : 10'
+    id: 10
+    ObjectImage: {fileID: 21300000, guid: 9308347b5b6bf564c937047400c161b5, type: 3}
+    GuiImage: {fileID: 21300000, guid: 9308347b5b6bf564c937047400c161b5, type: 3}
+    GuiImageHover: {fileID: 21300000, guid: 9308347b5b6bf564c937047400c161b5, type: 3}
+    IconSprite: {fileID: 21300000, guid: 9308347b5b6bf564c937047400c161b5, type: 3}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    scoreFlyerPrefab: {fileID: 1697664877922888, guid: f84adc3b8afe5ec49931065ed3e4e807,
+      type: 3}
+    collectAnimPrefab: {fileID: 1818079960290978, guid: 7c4a35656c1740a40aafd7e6a5d210b0,
+      type: 3}
+    withScore: 1
+    canUseAsShootBubbles: 1
+    isDestroyable: 0
+    protectionStateImages: []
+    match: 0
+  - name: 'Field Green Ball; ID : 11'
+    id: 11
+    ObjectImage: {fileID: 21300000, guid: 557c878899765974788d94efff61ca10, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    scoreFlyerPrefab: {fileID: 1697664877922888, guid: f84adc3b8afe5ec49931065ed3e4e807,
+      type: 3}
+    collectAnimPrefab: {fileID: 1818079960290978, guid: 7c4a35656c1740a40aafd7e6a5d210b0,
+      type: 3}
+    withScore: 1
+    canUseAsShootBubbles: 1
+    isDestroyable: 0
+    protectionStateImages: []
+    match: 0
+  - name: 'Field Ice; ID : 12'
+    id: 12
+    ObjectImage: {fileID: 21300000, guid: 3caffda92ad2e2547b04dac9ecd7a042, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 1608889073637036, guid: ba35a332708d5984ca479d1f2a95b66e,
+      type: 3}
+    scoreFlyerPrefab: {fileID: 0}
+    collectAnimPrefab: {fileID: 0}
+    withScore: 0
+    canUseAsShootBubbles: 0
+    isDestroyable: 1
+    protectionStateImages: []
+    match: 1
+  - name: 'Field Margenta Ball; ID : 13'
+    id: 13
+    ObjectImage: {fileID: 21300000, guid: 20b80b6f4d8a0f84f83a8ae51640c7b7, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    scoreFlyerPrefab: {fileID: 1697664877922888, guid: f84adc3b8afe5ec49931065ed3e4e807,
+      type: 3}
+    collectAnimPrefab: {fileID: 1818079960290978, guid: 7c4a35656c1740a40aafd7e6a5d210b0,
+      type: 3}
+    withScore: 1
+    canUseAsShootBubbles: 1
+    isDestroyable: 0
+    protectionStateImages: []
+    match: 0
+  - name: 'Field Orange Ball; ID : 14'
+    id: 14
+    ObjectImage: {fileID: 21300000, guid: 93a20ae560ad7fc4a8aafb6c85977fa9, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    scoreFlyerPrefab: {fileID: 1697664877922888, guid: f84adc3b8afe5ec49931065ed3e4e807,
+      type: 3}
+    collectAnimPrefab: {fileID: 1818079960290978, guid: 7c4a35656c1740a40aafd7e6a5d210b0,
+      type: 3}
+    withScore: 1
+    canUseAsShootBubbles: 1
+    isDestroyable: 0
+    protectionStateImages: []
+    match: 0
+  - name: 'Field Stone; ID : 15'
+    id: 15
+    ObjectImage: {fileID: 21300000, guid: bef6f71efc2ab3f4daa83a3215b78ce9, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 0}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    scoreFlyerPrefab: {fileID: 0}
+    collectAnimPrefab: {fileID: 0}
+    withScore: 0
+    canUseAsShootBubbles: 0
+    isDestroyable: 0
+    protectionStateImages: []
+    match: 1
+  - name: 'Field Violet Ball; ID : 16'
+    id: 16
+    ObjectImage: {fileID: 21300000, guid: ca52e905b55819648ad3b02c0ed137e9, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    scoreFlyerPrefab: {fileID: 1697664877922888, guid: f84adc3b8afe5ec49931065ed3e4e807,
+      type: 3}
+    collectAnimPrefab: {fileID: 1818079960290978, guid: 7c4a35656c1740a40aafd7e6a5d210b0,
+      type: 3}
+    withScore: 1
+    canUseAsShootBubbles: 1
+    isDestroyable: 0
+    protectionStateImages: []
+    match: 0
+  - name: 'Field Wood; ID : 17'
+    id: 17
+    ObjectImage: {fileID: 21300000, guid: e889e8f4ae2713341b8716dcbe10f49d, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 1012492644563994, guid: 71a4aa36974f01c4d82350d4db8f4e13,
+      type: 3}
+    scoreFlyerPrefab: {fileID: 0}
+    collectAnimPrefab: {fileID: 0}
+    withScore: 0
+    canUseAsShootBubbles: 0
+    isDestroyable: 1
+    protectionStateImages:
+    - {fileID: 21300000, guid: 13c018b12647c3d4798837448c81c699, type: 3}
+    match: 1
+  - name: 'Field Yellow Ball; ID : 18'
+    id: 18
+    ObjectImage: {fileID: 21300000, guid: 96ef9d9f44f90684c9afca5cf8795e0e, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 8300000, guid: bd10df76d6ddea14e983acb6e4d909bd, type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    scoreFlyerPrefab: {fileID: 1697664877922888, guid: f84adc3b8afe5ec49931065ed3e4e807,
+      type: 3}
+    collectAnimPrefab: {fileID: 1818079960290978, guid: 7c4a35656c1740a40aafd7e6a5d210b0,
+      type: 3}
+    withScore: 1
+    canUseAsShootBubbles: 1
+    isDestroyable: 0
+    protectionStateImages: []
+    match: 0
+  emptyObject:
+    name: 'Field Empty Ball; ID : 0'
+    id: 0
+    ObjectImage: {fileID: 21300000, guid: c8a134c21acd7dd4cb8fadb4fd6d1832, type: 3}
+    GuiImage: {fileID: 0}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 0}
+  overlayObjects:
+  - name: 'Field Fish Inside Overlay; ID : 100000'
+    id: 100000
+    ObjectImage: {fileID: 21300000, guid: 753b20f8934d56b4ea7af756a8d06220, type: 3}
+    GuiImage: {fileID: 21300000, guid: e35813a466926164c99ec27c2c2ae3af, type: 3}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 21300000, guid: 135913b69aab9f444a3c213896e3683b, type: 3}
+    privateClip: {fileID: 0}
+    behaviorPrefab: {fileID: 114524563300457724, guid: 1686bbc662d669d43a1562cc5d884cbe,
+      type: 3}
+    guiTargetPrefab: {fileID: 0}
+    iddleAnimPrefab: {fileID: 0}
+    hitAnimPrefab: {fileID: 0}
+    withScore: 0
+    collectAnimPrefab: {fileID: 0}
+    canUseAsTarget: 1
+  boosterObjects:
+  - name: 'Booster Field Eyeball; ID : 300000'
+    id: 300000
+    ObjectImage: {fileID: 21300000, guid: f72b473fbbc542e49911c65dab826cdf, type: 3}
+    GuiImage: {fileID: 21300000, guid: 850eb8238e5a32342afb89df31a01b6d, type: 3}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 0}
+    prefab: {fileID: 114941324962687764, guid: a331d8952a583644f89f1ce44b0f5f54, type: 3}
+  - name: 'Booster Field Fireball; ID : 300001'
+    id: 300001
+    ObjectImage: {fileID: 21300000, guid: ecf7f87fb63a47946a0c7a8df38fa4ba, type: 3}
+    GuiImage: {fileID: 21300000, guid: 2d2f2c3d824e0c5418281215b7b4c248, type: 3}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 0}
+    prefab: {fileID: 114018047214150238, guid: 02b52b1a620d30e469ed429b0ccdc8b5, type: 3}
+  - name: 'Booster Field Multicolor Ball; ID : 300002'
+    id: 300002
+    ObjectImage: {fileID: 21300000, guid: d3749b8fddd4acb438eb0503ab41e861, type: 3}
+    GuiImage: {fileID: 21300000, guid: ccf5b1d9e29984c49a1960d7c2c1411e, type: 3}
+    GuiImageHover: {fileID: 0}
+    IconSprite: {fileID: 0}
+    privateClip: {fileID: 0}
+    prefab: {fileID: 114157279647413774, guid: 37a623e1d9fcab940a0b3b81e0fc75c4, type: 3}

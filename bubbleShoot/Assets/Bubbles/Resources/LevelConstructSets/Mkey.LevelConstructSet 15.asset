@@ -1,0 +1,789 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f428baab0ef3964690a94bac11de0cf, type: 3}
+  m_Name: Mkey.LevelConstructSet 15
+  m_EditorClassIdentifier: 
+  vertSize: 47
+  horSize: 11
+  distX: 0.15
+  distY: 0.15
+  scale: 1
+  backGroundNumber: 0
+  levelMission:
+    description: Remove all bubbles
+    timeConstrain: 200
+    loopTopRow: 0
+    raiseAnchor: 0
+    targets:
+      list: []
+    movesConstrain: 0
+  featuredCells:
+  - id: 13
+    row: 2
+    column: 1
+  - id: 13
+    row: 2
+    column: 5
+  - id: 13
+    row: 3
+    column: 0
+  - id: 13
+    row: 3
+    column: 1
+  - id: 13
+    row: 3
+    column: 5
+  - id: 13
+    row: 3
+    column: 6
+  - id: 13
+    row: 3
+    column: 7
+  - id: 13
+    row: 3
+    column: 9
+  - id: 13
+    row: 4
+    column: 1
+  - id: 13
+    row: 5
+    column: 1
+  - id: 13
+    row: 8
+    column: 3
+  - id: 13
+    row: 10
+    column: 6
+  - id: 13
+    row: 8
+    column: 6
+  - id: 13
+    row: 7
+    column: 6
+  - id: 13
+    row: 5
+    column: 7
+  - id: 13
+    row: 4
+    column: 5
+  - id: 13
+    row: 4
+    column: 7
+  - id: 13
+    row: 4
+    column: 9
+  - id: 13
+    row: 5
+    column: 8
+  - id: 13
+    row: 9
+    column: 6
+  - id: 13
+    row: 9
+    column: 3
+  - id: 13
+    row: 10
+    column: 4
+  - id: 13
+    row: 7
+    column: 5
+  - id: 13
+    row: 5
+    column: 3
+  - id: 13
+    row: 6
+    column: 4
+  - id: 13
+    row: 12
+    column: 5
+  - id: 13
+    row: 12
+    column: 1
+  - id: 13
+    row: 12
+    column: 2
+  - id: 13
+    row: 12
+    column: 6
+  - id: 13
+    row: 12
+    column: 9
+  - id: 13
+    row: 13
+    column: 2
+  - id: 13
+    row: 14
+    column: 8
+  - id: 13
+    row: 14
+    column: 7
+  - id: 13
+    row: 14
+    column: 6
+  - id: 13
+    row: 15
+    column: 5
+  - id: 13
+    row: 15
+    column: 7
+  - id: 13
+    row: 19
+    column: 5
+  - id: 13
+    row: 17
+    column: 4
+  - id: 13
+    row: 16
+    column: 3
+  - id: 13
+    row: 18
+    column: 4
+  - id: 13
+    row: 20
+    column: 5
+  - id: 13
+    row: 21
+    column: 0
+  - id: 13
+    row: 21
+    column: 3
+  - id: 13
+    row: 21
+    column: 6
+  - id: 13
+    row: 21
+    column: 7
+  - id: 13
+    row: 21
+    column: 9
+  - id: 13
+    row: 22
+    column: 1
+  - id: 13
+    row: 22
+    column: 6
+  - id: 13
+    row: 22
+    column: 9
+  - id: 13
+    row: 23
+    column: 1
+  - id: 13
+    row: 23
+    column: 4
+  - id: 13
+    row: 23
+    column: 6
+  - id: 13
+    row: 23
+    column: 8
+  - id: 13
+    row: 24
+    column: 3
+  - id: 13
+    row: 24
+    column: 4
+  - id: 13
+    row: 24
+    column: 6
+  - id: 13
+    row: 24
+    column: 7
+  - id: 13
+    row: 24
+    column: 8
+  - id: 13
+    row: 25
+    column: 2
+  - id: 13
+    row: 25
+    column: 4
+  - id: 13
+    row: 25
+    column: 7
+  - id: 13
+    row: 26
+    column: 3
+  - id: 13
+    row: 26
+    column: 7
+  - id: 13
+    row: 27
+    column: 3
+  - id: 13
+    row: 27
+    column: 4
+  - id: 13
+    row: 27
+    column: 5
+  - id: 13
+    row: 28
+    column: 4
+  - id: 13
+    row: 28
+    column: 5
+  - id: 13
+    row: 28
+    column: 6
+  - id: 13
+    row: 30
+    column: 1
+  - id: 13
+    row: 30
+    column: 3
+  - id: 13
+    row: 30
+    column: 7
+  - id: 13
+    row: 30
+    column: 8
+  - id: 13
+    row: 31
+    column: 1
+  - id: 13
+    row: 31
+    column: 3
+  - id: 13
+    row: 31
+    column: 5
+  - id: 13
+    row: 31
+    column: 7
+  - id: 13
+    row: 32
+    column: 4
+  - id: 13
+    row: 32
+    column: 5
+  - id: 13
+    row: 32
+    column: 6
+  - id: 13
+    row: 33
+    column: 2
+  - id: 13
+    row: 34
+    column: 3
+  - id: 13
+    row: 34
+    column: 4
+  - id: 13
+    row: 34
+    column: 5
+  - id: 13
+    row: 34
+    column: 7
+  - id: 13
+    row: 35
+    column: 6
+  - id: 13
+    row: 36
+    column: 4
+  - id: 13
+    row: 37
+    column: 4
+  - id: 13
+    row: 38
+    column: 2
+  - id: 13
+    row: 38
+    column: 5
+  - id: 13
+    row: 38
+    column: 6
+  - id: 13
+    row: 38
+    column: 7
+  - id: 13
+    row: 38
+    column: 8
+  - id: 13
+    row: 39
+    column: 1
+  - id: 13
+    row: 39
+    column: 2
+  - id: 13
+    row: 39
+    column: 4
+  - id: 13
+    row: 39
+    column: 5
+  - id: 13
+    row: 40
+    column: 7
+  - id: 13
+    row: 40
+    column: 8
+  - id: 13
+    row: 41
+    column: 6
+  - id: 13
+    row: 41
+    column: 7
+  - id: 13
+    row: 42
+    column: 4
+  - id: 13
+    row: 42
+    column: 6
+  - id: 13
+    row: 43
+    column: 3
+  - id: 13
+    row: 43
+    column: 4
+  - id: 13
+    row: 43
+    column: 6
+  - id: 14
+    row: 2
+    column: 2
+  - id: 14
+    row: 2
+    column: 3
+  - id: 14
+    row: 2
+    column: 4
+  - id: 14
+    row: 3
+    column: 4
+  - id: 14
+    row: 3
+    column: 3
+  - id: 14
+    row: 4
+    column: 3
+  - id: 14
+    row: 3
+    column: 2
+  - id: 14
+    row: 4
+    column: 4
+  - id: 14
+    row: 5
+    column: 4
+  - id: 14
+    row: 6
+    column: 5
+  - id: 14
+    row: 4
+    column: 8
+  - id: 14
+    row: 3
+    column: 8
+  - id: 14
+    row: 2
+    column: 9
+  - id: 14
+    row: 2
+    column: 8
+  - id: 14
+    row: 2
+    column: 7
+  - id: 14
+    row: 8
+    column: 4
+  - id: 14
+    row: 8
+    column: 5
+  - id: 14
+    row: 9
+    column: 5
+  - id: 14
+    row: 10
+    column: 5
+  - id: 14
+    row: 9
+    column: 4
+  - id: 14
+    row: 6
+    column: 2
+  - id: 14
+    row: 7
+    column: 2
+  - id: 14
+    row: 13
+    column: 3
+  - id: 14
+    row: 13
+    column: 4
+  - id: 14
+    row: 13
+    column: 5
+  - id: 14
+    row: 14
+    column: 5
+  - id: 14
+    row: 15
+    column: 4
+  - id: 14
+    row: 14
+    column: 4
+  - id: 14
+    row: 11
+    column: 4
+  - id: 14
+    row: 13
+    column: 1
+  - id: 14
+    row: 14
+    column: 2
+  - id: 14
+    row: 15
+    column: 2
+  - id: 14
+    row: 15
+    column: 6
+  - id: 14
+    row: 16
+    column: 6
+  - id: 14
+    row: 17
+    column: 5
+  - id: 14
+    row: 16
+    column: 5
+  - id: 14
+    row: 19
+    column: 4
+  - id: 14
+    row: 18
+    column: 5
+  - id: 14
+    row: 12
+    column: 7
+  - id: 14
+    row: 12
+    column: 8
+  - id: 14
+    row: 21
+    column: 1
+  - id: 14
+    row: 21
+    column: 2
+  - id: 14
+    row: 22
+    column: 3
+  - id: 14
+    row: 23
+    column: 2
+  - id: 14
+    row: 22
+    column: 2
+  - id: 14
+    row: 21
+    column: 4
+  - id: 14
+    row: 21
+    column: 5
+  - id: 14
+    row: 22
+    column: 5
+  - id: 14
+    row: 29
+    column: 4
+  - id: 14
+    row: 29
+    column: 5
+  - id: 14
+    row: 30
+    column: 4
+  - id: 14
+    row: 30
+    column: 5
+  - id: 14
+    row: 30
+    column: 6
+  - id: 14
+    row: 30
+    column: 9
+  - id: 14
+    row: 24
+    column: 5
+  - id: 14
+    row: 23
+    column: 5
+  - id: 14
+    row: 26
+    column: 5
+  - id: 14
+    row: 22
+    column: 7
+  - id: 14
+    row: 22
+    column: 8
+  - id: 14
+    row: 23
+    column: 7
+  - id: 14
+    row: 30
+    column: 2
+  - id: 14
+    row: 31
+    column: 2
+  - id: 14
+    row: 32
+    column: 2
+  - id: 14
+    row: 32
+    column: 3
+  - id: 14
+    row: 27
+    column: 6
+  - id: 14
+    row: 33
+    column: 4
+  - id: 14
+    row: 33
+    column: 6
+  - id: 14
+    row: 34
+    column: 6
+  - id: 14
+    row: 33
+    column: 5
+  - id: 14
+    row: 35
+    column: 4
+  - id: 14
+    row: 36
+    column: 5
+  - id: 14
+    row: 37
+    column: 5
+  - id: 14
+    row: 36
+    column: 6
+  - id: 14
+    row: 35
+    column: 5
+  - id: 14
+    row: 38
+    column: 3
+  - id: 14
+    row: 38
+    column: 4
+  - id: 14
+    row: 39
+    column: 3
+  - id: 14
+    row: 40
+    column: 4
+  - id: 14
+    row: 40
+    column: 5
+  - id: 14
+    row: 40
+    column: 6
+  - id: 14
+    row: 41
+    column: 5
+  - id: 14
+    row: 42
+    column: 5
+  - id: 14
+    row: 41
+    column: 4
+  - id: 14
+    row: 44
+    column: 4
+  - id: 14
+    row: 44
+    column: 5
+  - id: 14
+    row: 44
+    column: 6
+  - id: 14
+    row: 45
+    column: 4
+  - id: 14
+    row: 46
+    column: 5
+  - id: 14
+    row: 45
+    column: 5
+  - id: 14
+    row: 38
+    column: 9
+  - id: 14
+    row: 38
+    column: 1
+  - id: 18
+    row: 40
+    column: 2
+  - id: 18
+    row: 40
+    column: 3
+  - id: 18
+    row: 41
+    column: 3
+  - id: 18
+    row: 41
+    column: 2
+  - id: 18
+    row: 39
+    column: 6
+  - id: 18
+    row: 39
+    column: 7
+  - id: 18
+    row: 39
+    column: 8
+  - id: 18
+    row: 43
+    column: 5
+  - id: 18
+    row: 42
+    column: 3
+  - id: 18
+    row: 33
+    column: 3
+  - id: 18
+    row: 31
+    column: 8
+  - id: 18
+    row: 32
+    column: 8
+  - id: 18
+    row: 33
+    column: 7
+  - id: 18
+    row: 32
+    column: 7
+  - id: 18
+    row: 31
+    column: 6
+  - id: 18
+    row: 35
+    column: 3
+  - id: 18
+    row: 25
+    column: 5
+  - id: 18
+    row: 25
+    column: 6
+  - id: 18
+    row: 26
+    column: 6
+  - id: 18
+    row: 25
+    column: 3
+  - id: 18
+    row: 26
+    column: 4
+  - id: 18
+    row: 22
+    column: 4
+  - id: 18
+    row: 23
+    column: 3
+  - id: 18
+    row: 24
+    column: 2
+  - id: 18
+    row: 21
+    column: 8
+  - id: 18
+    row: 14
+    column: 3
+  - id: 18
+    row: 15
+    column: 3
+  - id: 18
+    row: 16
+    column: 4
+  - id: 18
+    row: 17
+    column: 3
+  - id: 18
+    row: 13
+    column: 6
+  - id: 18
+    row: 13
+    column: 8
+  - id: 18
+    row: 13
+    column: 7
+  - id: 18
+    row: 16
+    column: 7
+  - id: 18
+    row: 17
+    column: 6
+  - id: 18
+    row: 18
+    column: 6
+  - id: 18
+    row: 12
+    column: 3
+  - id: 18
+    row: 12
+    column: 4
+  - id: 18
+    row: 4
+    column: 6
+  - id: 18
+    row: 5
+    column: 6
+  - id: 18
+    row: 5
+    column: 5
+  - id: 18
+    row: 4
+    column: 2
+  - id: 18
+    row: 5
+    column: 2
+  - id: 18
+    row: 6
+    column: 3
+  - id: 18
+    row: 6
+    column: 8
+  - id: 18
+    row: 7
+    column: 7
+  - id: 18
+    row: 8
+    column: 7
+  - id: 18
+    row: 6
+    column: 6
+  - id: 18
+    row: 6
+    column: 7
+  - id: 18
+    row: 2
+    column: 6
+  - id: 18
+    row: 2
+    column: 10
+  - id: 18
+    row: 7
+    column: 3
+  - id: 18
+    row: 7
+    column: 4
+  - id: 18
+    row: 11
+    column: 5
+  - id: 18
+    row: 2
+    column: 0
+  - id: 18
+    row: 31
+    column: 4
+  - id: 18
+    row: 42
+    column: 7
+  overlays: []
