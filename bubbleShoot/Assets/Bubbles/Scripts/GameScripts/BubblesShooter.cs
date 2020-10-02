@@ -24,6 +24,8 @@ namespace Mkey {
 
         #region ShootBubble
         private static ShootBubble shootBubble;
+        public GameObject GetShootBubble() { return shootBubble.gameObject; }
+
         [SerializeField]
         private Transform bubblePosition;
         [SerializeField]
